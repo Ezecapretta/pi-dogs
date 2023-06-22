@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+}
+.searchBarContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D2B48C;
+    padding-bottom: 2em;
+}
+.filterSortContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filterSelect {
+    border: 1px solid silver;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+}
+.sortSelect {
+    border: 1px solid silver;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+}
+.filterLabel {
+	font-weight: bold;
+    font-size: 17px;
+}
+.sortLabel {
+	font-weight: bold;
+    font-size: 17px;
+}
+.filterSelect option {
+    border: 1px solid silver;
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+}

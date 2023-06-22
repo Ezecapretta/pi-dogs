@@ -1,0 +1,37 @@
+.logo {
+    background-color: rgba(255, 255, 255, 0);
+}
+.title {
+    font-size: 40;
+    border: 1px solid silver;
+    border-radius: 30px;
+    padding: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: rgba(245, 245, 245, 0.527);
+
+}
+.container {
+    display: flex;
+    width: 700px;
+    height: 570px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d2b48cf3;
+    padding-bottom: 2em;
+    margin: auto;
+    margin-top: 7em;
+}
+.button {
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.527);
+    font-size: 2em;
+    cursor: pointer;
+    padding: 0.5em 2em;
+}
+
+.button:hover {
+    background-color: #a8893a;
+    color: white;
+}

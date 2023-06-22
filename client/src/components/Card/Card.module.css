@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    margin-bottom: 3em;
+    max-width: 350px;
+    max-height: 550px;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.img {
+    height: 25em;
+    width: 23em;
+    border-radius: 3px;
+}
+.title {
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+.intro {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D2B48C;
+}
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+.text {
+    font-size: 1rem;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,32 @@
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D2B48C;
+    padding: 1em;
+}
+
+.logo {
+    width: 5em;
+}
+
+.navLink {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.button {
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px 12px;
+}
+
+.button:hover {
+    background-color: #a8893a;
+    color: white;
+}

@@ -1,0 +1,9 @@
+export const GET_DOGS = "GET_DOGS";
+export const GET_DOG_BY_ID = "GET_DOG_BY_ID";
+export const ERROR = "ERROR"
+export const SET_FILTER = "SET_FILTER";
+export const SET_SORT = "SET_SORT";
+export const CREATE_DOG = "CREATE_DOG"
+export const GET_TEMPERAMENTS = "GET_TEMPERAMENTS";
+export const SEARCH_DOGS_BY_NAME = "SEARCH_DOGS_BY_NAME";
+export const SET_SEARCH_RESULTS = 'SET_SEARCH_RESULTS'
